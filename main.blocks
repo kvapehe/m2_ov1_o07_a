@@ -1,26 +1,26 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><comment id="g#FAdL3NttVl={*_e;8J" x="38" y="-134" h="198.46316528320312" w="516.5903930664062">Når en rister på Microbit eller endrer posisjon så vil accelerometeret registrere dette og vise ulike tilstander.
-Ved å teste på input fra disse kan en vise ulike bilder.</comment><block type="pxt-on-start" id="x#/w`md_(N4YOM@m_(%a" x="35" y="100"/><block type="device_forever" id="f0!x(E6cm[P#5blTg}P_" x="266" y="100"/><block type="device_gesture_event" id=");1o/dQZXD9C+4^}f|:8" x="38" y="235"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="@2zJ%~T8$$OEmo7:=7?W"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="g#FAdL3NttVl={*_e;8J" x="3" y="-234" h="198" w="516">Når en rister på Microbit eller endrer posisjon så vil accelerometeret registrere dette og vise ulike tilstander.
+Ved å teste på input fra disse kan en vise ulike bilder.</comment><block type="pxt-on-start" id="x#/w`md_(N4YOM@m_(%a" x="0" y="0"/><block type="device_forever" id="f0!x(E6cm[P#5blTg}P_" x="231" y="0"/><block type="device_gesture_event" id=");1o/dQZXD9C+4^}f|:8" x="3" y="135"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="@2zJ%~T8$$OEmo7:=7?W"><field name="LEDS">`
         . # . # . 
         # . # . # 
         . . # . . 
         . # # # . 
         . . # . .
-        `</field></block></statement></block><block type="device_gesture_event" id=";f{99[|`l,*5Va=5ebjb" x="266" y="239"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="2E9:Ha#-_zjo*cTy2j%:"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_gesture_event" id=";f{99[|`l,*5Va=5ebjb" x="231" y="139"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="2E9:Ha#-_zjo*cTy2j%:"><field name="LEDS">`
         . # # # . 
         # . # . # 
         # . # . # 
         . . # . . 
         . . # . .
-        `</field></block></statement></block><block type="device_gesture_event" id="3}*TPTi}ElhF_.G2xZ^8" x="488" y="239"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="%8G!fO^p}y1C$b1a62jB"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_gesture_event" id="3}*TPTi}ElhF_.G2xZ^8" x="453" y="139"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="%8G!fO^p}y1C$b1a62jB"><field name="LEDS">`
         . . . . . 
         # # # # # 
         # # # # # 
         # # . . . 
         . # . . .
-        `</field></block></statement></block><block type="device_gesture_event" id="lWGf[sTNvE3lNWQ5)?SL" x="727" y="234"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id=":C$KnPX,hOK^pf,9{v1%"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_gesture_event" id="lWGf[sTNvE3lNWQ5)?SL" x="692" y="134"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id=":C$KnPX,hOK^pf,9{v1%"><field name="LEDS">`
         . . . . . 
         # # # # # 
         # # # # # 
         . . . # # 
         . . . # .
-        `</field></block></statement></block><block type="device_gesture_event" id="fwC{E4ttbPMD2^K|$M|#" x="362" y="594"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="basic_show_icon" id="AYC_{a~B]8tcV0RfQ`3;"><field name="i">IconNames.Tortoise</field></block></statement></block></xml>
+        `</field></block></statement></block><block type="device_gesture_event" id="fwC{E4ttbPMD2^K|$M|#" x="327" y="494"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="basic_show_icon" id="AYC_{a~B]8tcV0RfQ`3;"><field name="i">IconNames.Tortoise</field></block></statement></block></xml>

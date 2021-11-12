@@ -1,3 +1,8 @@
+/**
+ * Når en rister på Microbit eller endrer posisjon så vil accelerometeret registrere dette og vise ulike tilstander.
+ * 
+ * Ved å teste på input fra disse kan en vise ulike bilder.
+ */
 input.onGesture(Gesture.LogoUp, function () {
     basic.showLeds(`
         . # # # .

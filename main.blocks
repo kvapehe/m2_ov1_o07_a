@@ -1,4 +1,5 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="x#/w`md_(N4YOM@m_(%a" x="0" y="0"/><block type="device_forever" id="f0!x(E6cm[P#5blTg}P_" x="205" y="0"/><block type="device_gesture_event" id=");1o/dQZXD9C+4^}f|:8" x="38" y="235"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="@2zJ%~T8$$OEmo7:=7?W"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><comment id="g#FAdL3NttVl={*_e;8J" x="38" y="-134" h="198.46316528320312" w="516.5903930664062">Når en rister på Microbit eller endrer posisjon så vil accelerometeret registrere dette og vise ulike tilstander.
+Ved å teste på input fra disse kan en vise ulike bilder.</comment><block type="pxt-on-start" id="x#/w`md_(N4YOM@m_(%a" x="35" y="100"/><block type="device_forever" id="f0!x(E6cm[P#5blTg}P_" x="266" y="100"/><block type="device_gesture_event" id=");1o/dQZXD9C+4^}f|:8" x="38" y="235"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="@2zJ%~T8$$OEmo7:=7?W"><field name="LEDS">`
         . # . # . 
         # . # . # 
         . . # . . 
